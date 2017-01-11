@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^nighttramparty.com(.*) [NC]
+RewriteRule ^(.*)$ http://www.nighttramparty.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.nighttramparty.com(.*) [NC]
+RewriteRule ^(.*)$ nighttramparty.com/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{REMOTE_ADDR} ^136\.243\.154\.50$
+RewriteRule .* http://www.nighttramparty.com [R,L]
+
+136.243.154.50
+
+# 301 --- http://www.nighttramparty.com/pl/index.php => www.nighttramparty.com
+
+RewriteCond %{HTTP_HOST} ^www\.nighttramparty\.com$
+RewriteRule ^pl/index\.php$ :///www.nighttramparty.com? [L,R=301]

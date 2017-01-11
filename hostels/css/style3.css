@@ -1,0 +1,413 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #304040;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+}
+
+html li,
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    color: #EEEEEE;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -mozila-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 70px;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+
+/*** Menu ***/
+
+.navbar-blue {
+    background-color: #61bae4;
+    text-align: center;
+}
+
+.navbar-blue a:visited,
+.navbar-blue a:link {
+    color: white
+}
+
+.navbar-blue li a:active,
+.navbar-blue li a:hover,
+.navbar-blue li a:focus {
+    background-color: rgba(98, 96, 160, 0.9);
+    color: white;
+}
+
+.navbar-blue .open>a,
+.navbar-blue .open>a:focus,
+.navbar-blue .open>a:active,
+.navbar-blue .open>a:hover {
+    background-color: #46448f;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .navbar-blue {
+        width: 100%;
+        background-color: #61bae4;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .dropdown {}
+    .navbar-blue li {
+        float: none;
+        display: inline-block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-blue li a:link,
+    .navbar-blue li a:visited,
+    .navbar-blue li a:hover,
+    .navbar-blue li a:focus {
+        color: white;
+    }
+    .navbar-blue > li {
+        font-weight: bold;
+    }
+    .navbar-blue li a:hover,
+    .navbar-blue li a:focus,
+    .navbar-blue .open>a,
+    .navbar-blue .open>a:focus,
+    .navbar-blue .open>a:hover {
+        background-color: #46448f;
+    }
+    .navbar-blue .dropdown-menu {
+        padding: 0;
+        margin: 0;
+        background-color: rgba(98, 96, 160, 0.9);
+    }
+    .navbar-blue ul.dropdown-menu li {
+        width: 100%;
+        margin: 0;
+    }
+    .navbar-blue ul.dropdown-menu li a {
+        padding: 8px 15px;
+    }
+    .navbar-blue li span {
+        background-color: #d058a5;
+        margin: 0;
+        padding: 8px 20px;
+    }
+    .navbar-blue .no-hover a {
+        padding: 0;
+    }
+    .navbar-blue .no-hover a:hover {
+        background-color: inherit;
+    }
+    .navbar-blue .no-hover span {
+        margin: 15px;
+    }
+}
+
+
+/*** Header ***/
+
+.header {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.header .lang-box {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.header .lang-box li {
+    width: 35px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.header .head-img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: auto;
+    display: block;
+}
+
+.header h2 {
+    font-size: 2.5em;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.header h3 {
+    background-color: #c42329;
+    padding: 14px;
+    font-size: 3em;
+    letter-spacing: 6px;
+}
+
+.header .movedown a:link,
+.header .movedown a:visited {
+    color: black;
+}
+
+.header .movedown a:hover,
+.header .movedown a:active {
+    color: #c42329;
+}
+
+.sec-1 .content {
+    text-align: center;
+    font-size: 130%;
+    padding-top: 2em;
+}
+
+@media (min-width: 768px) {
+    .sec-1 .content {
+        padding-top: 0;
+    }
+}
+
+.sec-2 .buy-btn a {
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-2 .buy-btn {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.sec-2 .buy-btn a {
+    text-transform: uppercase;
+    color: white;
+    padding: 12px 30px;
+    font-weight: 900;
+    background-color: #d058a5;
+}
+
+.sec-3 {
+    margin-top: 3em;
+    margin-bottom: 3m;
+}
+
+.sec-3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.sec-3 .social li a:link,
+.sec-3 .social li a:visited {
+    color: black;
+}
+
+.sec-3 .social li a:hover,
+.sec-3 .social li a:active {
+    color: #c42329;
+}
+
+.sec-3 .social li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.sec-3 h1,
+.sec-3 h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.sec-3 h1 {
+    font-size: 4em;
+}
+
+.sec-3 h2 {
+    font-size: 5em;
+}
+
+.sec-3 .text1,
+.sec-3 .text2 {
+    display: block;
+    letter-spacing: 6px
+}
+
+.sec-3 .text1 {
+    font-size: 2em;
+}
+
+.sec-3 .text2 {
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+.googleMap {
+    height: 350px;
+    margin-top: 3em;
+}
+
+.footer {
+    text-align: center;
+    margin: 8em 0;
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+
+/* Offer Page */
+.site-header .title div {
+    display: inline-block;
+    height: 200pxpx;
+    min-width: 100px;
+    text-align: center;
+}
+.site-header .title img {
+    max-width: 80px;
+}
+
+.site-header .title h1 {
+    color: #46448f;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.offer-page .content {
+    color: black;
+    text-align: left;
+    padding-top: 3em;
+}
+
+.offer-page .content p {
+    padding-top: 2em;
+}
+
+.offer-page .contact-box {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1.5em 0;
+}
+
+.offer-page .contact-box li {
+    margin: 0;
+    padding: 1em 0;
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: center !important;
+}
+
+.offer-page .contact-box li span {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.offer-page .contact-box li {
+    color: black;
+}
+
+.offer-page .contact-box li a:link,
+.offer-page .contact-box li a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.offer-page .contact-box li a:active,
+.offer-page .contact-box li a:hover {
+    color: #46488f;
+}
+
+.offer-page .contact-box .phone-box {
+    float: none;
+    text-align: left;
+}
+
+.offer-page .contact-box .phone-box span {
+    vertical-align: bottom;
+}
+
+.offer-page .contact-box li .phone {
+    padding: 0;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .offer-page .contact-box li {
+        display: inline-block;
+        text-align: center !important;
+        width: 48%;
+    }
+}
+/* Events */
+.ev-container {
+    position: relative;
+    font-size: 14px;
+}
+.ev-box {
+    min-height: 140px;
+    margin: 20px 0;
+    position: relative;
+    background-image: url(../img/homeGallery/10.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ev-container .ev-box .cover {
+    min-height: 140px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background-color: rgba(255,255,255,.4);
+}
+.ev-container .ev-box h1 {
+    font-size: 2.5em;
+    color: black;
+    font-weight: bold;
+}
+.ev-container .ev-box .buyTicket {
+    font-size: 2.5em;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: rgba(248, 243, 101, .9);
+    color: white;
+    font-weight: bold;
+}
+.ev-container .ev-box h3 {
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: black;
+}
+@media (min-width: 768px) {
+    .ev-container .ev-box h1 {
+        text-align: left;
+    }
+}
