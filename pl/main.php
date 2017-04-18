@@ -9,6 +9,9 @@
     <a href="#about" class="page-scroll"><span class="fa fa-4x fa-angle-double-down pulse" </span></a>
 </div>
 </div>
+
+<!-- plywajacy tekst
+
 <div id="about">
     <div class="sec-1 bcg">
         <div class="hover">
@@ -22,13 +25,24 @@
         </div>
     </div>
 </div>
+
+-->
+
+
 <div class="sec-2">
     <div class="container">
         <div class="buy-btn">
-            <a href="#">Kup Bilet</a>
+		
+            <a href="https://www.eventbrite.com/o/night-tram-party-11730300313">Platforma sprzedaży biletów Eventbrite<br>Kup Bilet</a>	
+			<br><br>
+			<a href="http://buyticket.nighttramparty.com">Platforma sprzedaży biletów Buyticket<br>Kup Bilet</a>
+			
         </div>
     </div>
 </div>
+
+<!-- okienko duze youtube
+
 <div class="movie" id="movie">
     <div class="container">
         <div class="embed-responsive embed-responsive-16by9 col-sm-10 col-sm-offset-1">
@@ -36,6 +50,10 @@
         </div>
     </div>
 </div>
+
+-->
+
+
 <div class="sec-3">
     <div class="social">
         <li>
@@ -49,9 +67,22 @@
             </a>
         </li>
     </div>
+	
+	
     <div class="info-box">
         <h1>W okresie zimowym</h1>
-        <span class="text1">Imprezy odbywają się okazjonalnie</span>
+        <span class="text1">Imprezy odbywają się okazjonalnie<br></span>
+		<span class="text1">- - -</span>
+		<span class="text1">Jesteśmy w trakcie przygotowywania imprez<br>na
+
+ cały rok <b>kwiecien-pazdziernik 2017</b>,<br>Prosimy o kontakt telefoniczny lub mailowy<br>w sprawie imprez w tym
+okresie</span>
+
         <span class="text2"><a href="events.php">Sprawdź nasz harmonogram</a></span>
     </div>
+	
+	<iframe src="//embedsocial.com/facebook_album/album_photos/581726492019390" width="90%" height="1500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    
+    <iframe src="//embedsocial.com/facebook_album/album_photos/572550596270313" width="90%" height="1500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+	
 </div>

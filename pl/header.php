@@ -3,17 +3,18 @@
 
 <head>
 
-    <title>Kraków - Night Tram Party</title>
+	<title><?php include '../title.php'; ?></title>
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
-    <meta charset="utf-8">
-    <meta name="title" content="Kraków - Night Tram Party">
-    <meta http-equiv="Content-Language" content="pl" />
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Impreza, event, night, tram, party, krakow, tramwaj, dyskoteka">
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="title" content ="Kraków - Night Tram Party">
+    <meta name="keywords" content="<?php include '../keywords.php'; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Krakow - Night Tram Party - Best Party in Krakow!">
-    <meta name="author" content="Kamil Szalek">
-
+    <meta name="description" content="Krakow - Night Tram Party - Best All Night Party in Krakow ! [Malopolska, Poland]">
+    <meta name="author" content="Kamil Szalek / modified by 4AM & N4M">
+    
+	
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -68,7 +69,7 @@
             <ul class="nav navbar-nav navbar-blue">
                 <li><a class="" href="index.php">Strona główna</a></li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Oferta</a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Imprezy</a>
                     <ul class="dropdown-menu">
                         <li><a href="offer.php?p=birthday">Urodziny</a></li>
                         <li><a href="offer.php?p=bechelorette">Wieczory Panieńskie</a></li>
@@ -79,11 +80,29 @@
                     </ul>
                 </li>
                 <li><a class="" href="events.php">Wydarzenia</a></li>
+				<li><a class="" href="contests.php">Konkursy</a></li>
+				<li><a class="" href="jobs.php">Praca</a></li>
+				<!--<li><a class="" href="about.php">O nas</a></li>-->
+				
+				<li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Dla firm</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.php">O nas</a></li>
+                        <li><a href="cooperate.php">Współpraca</a></li>
+                        <li><a href="socialmedia.php">Social Media</a></li>
+                        <li><a href="film.php">Filmy</a></li>
+                        <li><a href="gallery.php">Galeria</a></li>
+                        
+                    </ul>
+                </li>
+				
+				
+				
                 <li><a class="page-scroll" href="#contact">Kontakt</a></li>
                 <li><a class="page-scroll" href="#map">Mapa</a></li>
-                <li><a class="page-scroll" href="http://www.nighttramparty.com/hostels">Hostels</a></li>
+                <!--<li><a class="page-scroll" href="http://www.nighttramparty.com/hostels">Hostels</a></li>-->
                 <li class="no-hover">
-                    <a class="" href="events.php">
+                    <a class="" href="https://www.eventbrite.com/o/night-tram-party-11730300313">
                         <span>Kup Bilet</span>
                     </a>
                 </li>
@@ -93,10 +112,22 @@
     </nav>
     <div class="hero header">
         <ul class="lang-box">
-            <li>
-                <a href="../pl/"><img src="../img/lang-pl.png" class="img-responsive" alt="night tram party krakow party"></a>
+         <li>
+                <a href="../pl/"><img src="../img/lang-pl.png" class="img-responsive"></a>
             </li>
             <li>
-                <a href="../en/"><img src="../img/lang-eng.png" class="img-responsive" alt="night tram party krakow party"></a>
+                <a href="../en/"><img src="../img/lang-eng.png" class="img-responsive"></a>
+            </li>
+			   <li>
+                <a href="../es/"><img src="../img/lang-es.png" class="img-responsive"></a>
+            </li>
+			   <li>
+                <a href="../de/"><img src="../img/lang-de.png" class="img-responsive"></a>
+            </li>
+			   <li>
+                <a href="../nd/"><img src="../img/lang-nd.png" class="img-responsive"></a>
+            </li>
+			   <li>
+                <a href="../ru/"><img src="../img/lang-ru.png" class="img-responsive"></a>
             </li>
         </ul>

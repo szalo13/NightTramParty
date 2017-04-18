@@ -19,8 +19,8 @@
                     <span class="fa fa-3x fa-phone"></span>
                 </ul>
                 <ul class="d-inline-block">
-                    <li class="phone">Cecylia - 512 386 649</li>
-                    <li class="phone">Daniel - 504 030 347</li>
+                    <li class="phone">Cecylia + 48 512 386 649<br></li>
+                
                 </ul>
             </li>
         </ul>

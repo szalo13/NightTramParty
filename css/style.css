@@ -21,7 +21,9 @@ ol {
     min-width: 100vw;
     min-height: 100vh;
     text-align: center;
-    color: #EEEEEE;
+   /* color: #EEEEEE;*/
+	color: #ADA3A3;
+	
     background-size: cover;
     -webkit-background-size: cover;
     -mozila-background-size: cover;
@@ -65,7 +67,7 @@ ol {
     color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: /*768px*/  268px) {
     .navbar-blue {
         width: 100%;
         background-color: #61bae4;
@@ -159,7 +161,9 @@ ol {
 }
 
 .head-text h3 {
-    background-color: #c42329;
+  /*background-color: #c42329; */
+	background-color: #658AE2; /*nowy kolor - niebieski z ulotki z oferty pdf */
+	
     padding: 14px;
     font-size: 3em;
     letter-spacing: 6px;
@@ -293,10 +297,12 @@ ol {
 .sec-3 .text1,
 .sec-3 .text2 {
     display: block;
-    letter-spacing: 6px
+	/*letter-spacing: 6px*/
+    letter-spacing: 4px
 }
 
 .sec-3 .text1 {
+	/*font-size: 2em;*/
     font-size: 2em;
 }
 
@@ -304,6 +310,21 @@ ol {
     font-size: 2.1em;
     font-weight: bold;
 }
+
+/*.sec-3 */.text3 {
+    font-size: 1.1em;
+    color: #404040;
+	/*color: pink;*/
+}
+
+.sec-3 .text4 {
+    font-size: 2.1em;
+    font-weight: bold;
+	color: #D058A5;
+}
+
+
+
 
 .googleMap {
     height: 350px;

@@ -35,7 +35,12 @@ else
     <ul class="row title">
         <div class=""><img src="../img/logo.png" alt="night tram party krakow party"></div>
         <div class="">
-            <h1><?php echo $eventMessage; ?></h1>
+            <h1>NIGHTTRAMPARTY<!-- Tu stary mechanizm automatyczny eventow --><?php //echo $eventMessage; ?></h1>
+        <!--<span class="text3">W okresie zimowym imprezy odbywają się okazjonalnie<br>Jesteśmy w trakcie przygotowywania imprez<br>na cały rok <b>kwiecien-pazdziernik 2017</b>,<br>Prosimy o kontakt telefoniczny lub mailowy<br>w sprawie imprez w tym okresie.</span>-->
+			<br><span class="text3">
+			<?php include '../events.pl.txt'; ?> 
+			<br></span>
+			
         </div>
     </ul>
     <div class="clearfix ev-cont">

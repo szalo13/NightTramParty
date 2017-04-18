@@ -1,0 +1,1 @@
+event,party,nighttramparty,night tram party,tram party,tramparty,night,tram,krakow,malopolska,disco,club,bar,drink,poland,trip,hostel,girls,boys,hot party,coctail,boat party,boatparty,great party,best party,night life,cool,pub crawl,imprezowy tramwaj,imprezy w tramwaju,party hostel,backpakers, 

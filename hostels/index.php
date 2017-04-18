@@ -37,9 +37,9 @@
                   <?php 
                     if(isset($_SESSION['blad']))
                     {
-                        //echo '<p class="help-block text-alert">Nieprawidlowy login lub haslo</p>';
-                        echo $_SESSION['blad'] . '\n' . $_SESSION['haslo'];
-                        unset($_SESSION['blad']);
+                        echo '<p class="help-block text-alert">Nieprawidlowy login lub haslo</p>';
+                        //echo $_SESSION['blad'] . '\n' . $_SESSION['haslo'];
+                        //unset($_SESSION['blad']);
                     }
                   ?>
               </div>

@@ -1,5 +1,5 @@
 <div class="share-section">
-    <div class="fb-share-button" data-href="http://www.nighttramparty.com" data-layout="button" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.nighttramparty.com%2F&amp;src=sdkpreparse">Udostępnij</a>
+    <div class="fb-share-button" data-href="http://www.nighttramparty.com" data-layout="button_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.nighttramparty.com%2F&amp;src=sdkpreparse">Udostępnij</a>
     </div>
     <div id="TA_cdsratingsonlynarrow575" class="TA_cdsratingsonlynarrow">
         <ul id="mKfyD3" class="TA_links jRH5QkZUc">
