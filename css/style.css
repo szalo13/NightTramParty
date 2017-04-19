@@ -23,7 +23,7 @@ ol {
     text-align: center;
    /* color: #EEEEEE;*/
 	color: #ADA3A3;
-	
+
     background-size: cover;
     -webkit-background-size: cover;
     -mozila-background-size: cover;
@@ -163,7 +163,7 @@ ol {
 .head-text h3 {
   /*background-color: #c42329; */
 	background-color: #658AE2; /*nowy kolor - niebieski z ulotki z oferty pdf */
-	
+
     padding: 14px;
     font-size: 3em;
     letter-spacing: 6px;
@@ -535,4 +535,37 @@ ol {
     .share-section div {
         margin: 0;
     }
+}
+
+/*************** How It Works *************/
+.how-it-works ol li {
+  list-style-type: decimal;
+}
+
+.how-it-works h1 {
+  font-size: 3em;
+}
+
+.how-it-works ol {
+  font-size: 1.5em;
+  padding: 2em 15px;
+}
+section.padding-medium {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.color-pink {
+  color: #CE5BA4;
+}
+
+a.color-pink:link,
+a.color-pink:visited {
+  color: #CE5BA4;
+}
+
+a.color-pink:hover,
+a.color-pink:focus {
+  color: #B22222;
+  text-decoration: none;
 }

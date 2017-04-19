@@ -82,11 +82,38 @@
     </span>
 
 
-        <span class="text2"><a href="events.php">Buy a ticket now! The number of them is limited.        </span>
+        <span class="text2"><a href="events.php">Buy a ticket now! The number of them is limited.</a>        </span>
     </div>
-
-    <iframe src="//embedsocial.com/facebook_album/album_photos/581726492019390" width="90%" height="1500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-
-    <iframe src="//embedsocial.com/facebook_album/album_photos/572550596270313" width="90%" height="1500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-
 	</div>
+
+<section class="padding-medium">
+  <div class="container how-it-works">
+    <div class="row">
+      <h1 class="text-center">How it works</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <ol>
+          <li>Each night tram party <b>start at 9:30pm</b></li>
+          <li><u><a class="color-pink" href="https://www.eventbrite.com/o/night-tram-party-11730300313">Buy the ticket online</u></a></li>
+          <li>If you want order party on different day write to us <b>office@nighttramparty.com</b></li>
+          <li>We start on <u>Plac wszystkich świętych</u>. Be there at least <u>15 minutes</u> earlier so that our crew could exchange your ticket for the <u>bracelet</u>.</li>
+          <li>The party ride on the Night Tram lasts <u><b>2 hours!</u></b></li>
+          <li>When the party ride is over you will be taken for the <u>pub crawl</u> showing you the best local pubs and clubs. <u><b>The entrance is free!</u></b></li>
+          <li>The number of tickets is limited - only 70 per one ride.</li>
+        </ol>
+      </div>
+    </div>
+    <h3 class="text-center">Be prepared! We don't sell drinks on board ;)</h3>
+    <h1 class="text-uppercase text-center"><b><a class="color-pink" href="https://www.eventbrite.com/o/night-tram-party-11730300313">check out our schedule</a></b></h1>
+    <h2 class="text-center text-uppercase"><b>to find open parties</b></h2>
+  </div>
+</section>
+
+  <div class="gallery container-fluid">
+
+    <iframe src="//embedsocial.com/facebook_album/album_photos/581726492019390" width="100%" height="1100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+    <iframe src="//embedsocial.com/facebook_album/album_photos/572550596270313" width="100%" height="1100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+  </div>
